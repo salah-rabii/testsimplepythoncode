@@ -24,7 +24,7 @@ def test_multiplication():
     assert multiplication(0, 5) == 0
 
 def test_division():
-    assert division(6, 2) == 7
+    assert division(6, 2) == 3
     assert division(-6, 2) == -3
     assert division(0, 5) == 0  # Zero divided by non-zero
     assert division(5, 2) == 2.5  # Result is a float
