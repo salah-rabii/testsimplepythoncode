@@ -13,8 +13,5 @@ def division(a, b):
         raise ValueError("Cannot divide by zero")
     return a / b
 
-    fefsfzef
-    a52zfz
-    sqd
-    fze
+  
 
