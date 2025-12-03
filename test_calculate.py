@@ -15,7 +15,7 @@ def test_addition():
 
 def test_soustraction():
     assert soustraction(9, 7) == 2
-    assert soustraction(10, 4) == 6
+    assert soustraction(10, 4) == 5
     assert soustraction(0, 0) == 0
 
 def test_multiplication():
@@ -26,9 +26,9 @@ def test_multiplication():
 def test_division():
     assert division(6, 2) == 3
     assert division(-6, 2) == -3
-    assert division(0, 5) == 0  # Zero divided by non-zero
-    assert division(5, 2) == 2.5  # Result is a float
-    assert division(-6, -2) == 3  # Both numbers negative
-    assert division(6, -2) == -3  # Positive divided by negative
+    assert division(0, 5) == 0  
+    assert division(5, 2) == 2.5  
+    assert division(-6, -2) == 3  
+    assert division(6, -2) == -3  
     with pytest.raises(ValueError):
-        division(1, 0)  # Division by zero
+        division(1, 0)  
